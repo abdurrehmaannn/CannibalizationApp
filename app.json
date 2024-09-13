@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "myproject",
+    "slug": "myproject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": ["CAMERA", "INTERNET"],
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "CannibalizationAppCannibalization.com"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a3ef3f53-6fbc-4abb-ac0e-1b60835f18a4"
+      }
+    }
+  }
+}
